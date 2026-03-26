@@ -40,7 +40,7 @@ def merge_sort_v1(array):
 print("After V1: ", merge_sort_v1(not_sorted_array.copy()))
 
 
-# Let's do tiny optimisation with deque
+# Let's do tiny optimization with deque for deleting first element with O(1) time
 from collections import deque
 
 # Time Complexity:      θ(n log n), Ω(n log n)
